@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    float num1, num2, result;
-    char op;
+    float num1, num2, result;//输入数字
+    char op;//输入+-*/运算符号
 
     cout << "Enter the first number: ";
     cin >> num1;
@@ -13,7 +13,7 @@ int main()
     cout << "Enter the second number: ";
     cin >> num2;
 
-    switch (op)
+    switch (op)//开关语句，判断所输入的符号
     {
     case '+':
         result = num1 + num2;
